@@ -1,0 +1,15 @@
+[package]
+name = "BlockChainAptos"
+version = "1.0.0"
+authors = []
+
+[addresses]
+AdminAccount = "0xee55f61de1292ef70662c05de04e6b102a3b8f0731c341d3974e775654417b7e"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
